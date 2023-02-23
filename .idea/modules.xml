@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Pro-Web.iml" filepath="$PROJECT_DIR$/Pro-Web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro07-javaweb-begin/pro07-javaweb-begin.iml" filepath="$PROJECT_DIR$/pro07-javaweb-begin/pro07-javaweb-begin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" filepath="$PROJECT_DIR$/pro08-javaweb-servlet/pro08-javaweb-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-fruit1.4-thymeleaf/pro09-fruit1.4-thymeleaf.iml" filepath="$PROJECT_DIR$/pro09-fruit1.4-thymeleaf/pro09-fruit1.4-thymeleaf.iml" />
     </modules>
   </component>
 </project>

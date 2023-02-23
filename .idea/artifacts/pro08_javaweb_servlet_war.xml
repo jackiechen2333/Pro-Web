@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pro08-javaweb-servlet:war">
+    <output-path>$PROJECT_DIR$/pro08-javaweb-servlet/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pro08-javaweb-servlet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pro08-javaweb-servlet-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pro08-javaweb-servlet:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

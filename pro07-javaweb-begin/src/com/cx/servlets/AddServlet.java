@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class AddServlet extends HttpServlet {
+    /**
+     * @Description:相应post请求
+     * @author:cx
+     * @data:2023/2/22-22:02
+     */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
@@ -21,8 +26,8 @@ public class AddServlet extends HttpServlet {
         Integer fcount = Integer.parseInt(fCountStr);
         String remark = req.getParameter("remark");
 
-        FruitDAO fruitDAO = new FruitDAOImpl();
-        boolean flag = fruitDAO.addFruit(new Fruit(0, fname, price, fcount, remark));
+        FruitDAO fruitDAOImpl = new FruitDAOImpl();
+        boolean flag = fruitDAOImpl.addFruit(new Fruit(0, fname, price, fcount, remark));
         System.out.println(flag ? "添加成功" : "添加失败");
     }
 }
